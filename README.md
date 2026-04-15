@@ -52,8 +52,10 @@ The script writes:
 
 - `outputs/submission.csv`
 - `outputs/model.joblib`
+- `outputs/training_process.png`
 
 The generated submission has the same identifying columns as the test power file plus `p1` to `p96` predictions.
+The training-process figure contains a posterior-predictive style validation plot and a loss curve. Use `--plot-path` to choose a different file name, or `--no-plot` to skip plotting.
 
 ## Notes on the Original Notebooks
 
