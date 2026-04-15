@@ -4,6 +4,5 @@ __pycache__/
 .venv/
 outputs/*
 !outputs/
-!outputs/*.png
 !outputs/*.jpg
 *.joblib
